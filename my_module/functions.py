@@ -31,6 +31,8 @@ def plot(neuron):
 
     Parameters
     ------
+    neuron: obj
+        neuron whos history we want to plot
     """
     plt.plot(neuron.history)
     plt.ylabel("Voltage (mV)")
